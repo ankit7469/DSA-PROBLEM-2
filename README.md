@@ -26,13 +26,9 @@ The width of the highlighted area depends on the number of letters in the word.
 🧩 Core Concepts
 
 • Character-to-Index Mapping: Letters are mapped to array indices (a → 0, b → 1, … z → 25)
-
 • Maximum Selection: Only the tallest letter determines the height
-
 • Length Calculation: Word length represents the width
-
 • Area Formula: Area = max height × word length
-
 • Efficiency: Single pass through the word is sufficient
 
 ------------------------------------------------------------------------------------------------------------------
