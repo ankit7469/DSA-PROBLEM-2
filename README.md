@@ -1,7 +1,7 @@
-# DSA-PROBLEM-2 --
-----------------------------------------------------
+# DSA-PROBLEM-2 -- 
 
-### 1. Designer PDF Viewer
+----------------------------------------------------
+## Probelm 1. Designer PDF Viewer
 ---------------------------------------------------
 
 🎯 Purpose
@@ -15,13 +15,13 @@ The width of the highlighted area depends on the number of letters in the word.
 
 🧠 Concept
 
-Each lowercase alphabet letter (a to z) has a predefined height stored in an array.
-To find the highlighted area:
-Each character in the word is mapped to its corresponding height.
-The maximum height among these characters is selected.
-The final area is calculated using the product of:
-maximum letter height
-total number of characters in the word
+- Each lowercase alphabet letter (a to z) has a predefined height stored in an array.
+- To find the highlighted area:
+- Each character in the word is mapped to its corresponding height.
+- The maximum height among these characters is selected.
+- The final area is calculated using the product of:
+ maximum letter height
+ total number of characters in the word
 
 🧩 Core Concepts
 
@@ -30,3 +30,5 @@ total number of characters in the word
 • Length Calculation: Word length represents the width
 • Area Formula: Area = max height × word length
 • Efficiency: Single pass through the word is sufficient
+
+------------------------------------------------------------------------------------------------------------------
