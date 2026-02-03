@@ -32,3 +32,5 @@ The width of the highlighted area depends on the number of letters in the word.
 • Efficiency: Single pass through the word is sufficient.
 
 ------------------------------------------------------------------------------------------------------------------
+## Problem 2. 
+--------------------------------------------------------------------------------------------------------------------
