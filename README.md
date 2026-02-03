@@ -63,3 +63,5 @@ The height is updated step-by-step based on the type of cycle.
 • Cycle-Based Logic: Growth depends on cycle number
 • Iteration: Each cycle updates the height
 • Deterministic Process: Same input always produces the same height
+
+---------------------------------------------------------------------------------------------------------------------------
