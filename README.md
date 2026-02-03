@@ -32,5 +32,34 @@ The width of the highlighted area depends on the number of letters in the word.
 • Efficiency: Single pass through the word is sufficient.
 
 ------------------------------------------------------------------------------------------------------------------
-## Problem 2. 
+## Problem 2. Utopian Tree
 --------------------------------------------------------------------------------------------------------------------
+
+🎯 Purpose
+
+To calculate the height of the Utopian Tree after a given number of growth cycles.
+
+🔑 Key Insight
+
+The tree grows in two alternating phases:
+Spring: the height doubles
+Summer: the height increases by 1
+The final height depends on applying these phases in order for each cycle.
+
+🧠 Concept
+
+The tree starts with an initial height of 1.
+Growth happens cyclically:
+
+First cycle is Spring
+Second cycle is Summer
+This pattern repeats for all cycles
+The height is updated step-by-step based on the type of cycle.
+
+🧩 Core Concepts
+
+• Initial State: Tree height starts at 1
+• Alternating Growth: Spring (×2), Summer (+1)
+• Cycle-Based Logic: Growth depends on cycle number
+• Iteration: Each cycle updates the height
+• Deterministic Process: Same input always produces the same height
