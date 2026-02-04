@@ -92,3 +92,5 @@ For that class:
 - Comparison Rule: Cancel class when on-time count < threshold
 - Multiple Test Cases: Each test case is evaluated independently
 - Binary Decision: Output is either cancellation or continuation
+
+------------------------------------------------------------------------------------------------------------
