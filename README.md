@@ -1,3 +1,4 @@
+
 # 2. DSA-PROBLEM --
 
 -----------------------------------------------------
@@ -64,4 +65,6 @@ The height is updated step-by-step based on the type of cycle.
 • Iteration: Each cycle updates the height
 • Deterministic Process: Same input always produces the same height
 
+---------------------------------------------------------------------------------------------------------------------------
+## Probelm 3. Angry Professor
 ---------------------------------------------------------------------------------------------------------------------------
