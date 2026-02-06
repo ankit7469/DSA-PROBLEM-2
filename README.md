@@ -123,3 +123,36 @@ For each number in the range:
 -  Generality: Logic works for numbers with any number of digits
 
 ---------------------------------------------------------------------------------------------------------------------
+## 5. Prblem - Viral Advertising
+---------------------------------------------------------------------------------------------------------------------
+
+🎯 Purpose
+
+To calculate the total number of likes an advertisement receives over a given number of days based on a fixed sharing pattern.
+
+🔑 Key Insight
+
+Each day:
+
+- Only half of the people who see the advertisement like it.
+- Every person who likes the ad shares it with 3 new people the next day.
+- Likes are cumulative and added day by day.
+
+🧠 Concept
+
+The process starts with an initial number of people who see the advertisement.
+For each day:
+- The number of likes is calculated.
+- These likes are added to a running total.
+- The advertisement is shared again based on the number of likes, creating a repeating cycle.
+- This cycle continues for the given number of days.
+
+🧩 Core Concepts
+
+- Integer Division: Likes are calculated using floor division
+- Cumulative Sum: Likes are added day by day
+- Iteration: Each day depends on the previous day’s result
+- State Update: Next day’s audience is based on current likes
+- Deterministic Pattern: Same input always gives the same output
+
+---------------------------------------------------------------------------------------------------------------
