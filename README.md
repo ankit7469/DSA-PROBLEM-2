@@ -96,3 +96,28 @@ For that class:
 ------------------------------------------------------------------------------------------------------------
 ## 4. Problem - Beautiful days at the movies 
 ------------------------------------------------------------------------------------------------------------
+
+🎯 Purpose
+
+To count how many numbers within a given range are beautiful days, based on a divisibility condition involving the number and its reverse.
+
+🔑 Key Insight
+
+A day is considered beautiful if the absolute difference between the number and its reversed form is exactly divisible by a given value k.
+
+🧠 Concept
+
+For each number in the range:
+
+- The number is reversed digit by digit (works for any number of digits).
+- The absolute difference between the original number and its reverse is calculated.
+- If this difference is divisible by k, the day is counted as beautiful.
+- This process is repeated for all numbers in the given range.
+
+🧩 Core Concepts
+
+• Digit Reversal: Reversing a number using repeated modulo and division
+• Absolute Difference: Ensures comparison is always non-negative
+• Divisibility Check: Uses modulo operation to test exact division
+• Range Iteration: Each number in the interval is evaluated
+• Generality: Logic works for numbers with any number of digits
