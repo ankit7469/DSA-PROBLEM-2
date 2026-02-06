@@ -116,8 +116,8 @@ For each number in the range:
 
 🧩 Core Concepts
 
-• Digit Reversal: Reversing a number using repeated modulo and division
-• Absolute Difference: Ensures comparison is always non-negative
-• Divisibility Check: Uses modulo operation to test exact division
-• Range Iteration: Each number in the interval is evaluated
-• Generality: Logic works for numbers with any number of digits
+-  Digit Reversal: Reversing a number using repeated modulo and division
+-  Absolute Difference: Ensures comparison is always non-negative
+-  Divisibility Check: Uses modulo operation to test exact division
+-  Range Iteration: Each number in the interval is evaluated
+-  Generality: Logic works for numbers with any number of digits
