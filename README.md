@@ -121,3 +121,5 @@ For each number in the range:
 -  Divisibility Check: Uses modulo operation to test exact division
 -  Range Iteration: Each number in the interval is evaluated
 -  Generality: Logic works for numbers with any number of digits
+
+---------------------------------------------------------------------------------------------------------------------
