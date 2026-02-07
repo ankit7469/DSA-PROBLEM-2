@@ -158,3 +158,29 @@ For each day:
 ## 6. Prroblem - Save The Prisoner
 ---------------------------------------------------------------------------------------------------------------
 
+🎯 Purpose
+
+To determine which prisoner receives the last candy when candies are distributed one-by-one in a circular arrangement starting from a given prisoner.
+
+🔑 Key Insight
+
+The distribution follows circular counting.
+The position of the last candy can be calculated using modulo arithmetic instead of simulating each step.
+
+🧠 Concept
+
+- Prisoners are numbered from 1 to n (1-based numbering).
+- Distribution starts at prisoner s.
+- The first candy goes directly to the starting prisoner, so only the remaining candies cause movement.
+- To work cleanly with modulo, the starting position is converted to 0-based indexing.
+- Modulo keeps the count within the circle of prisoners.
+
+🧩 Core Concepts
+
+- 1-based to 0-based Conversion: s - 1 aligns seat numbering with modulo/indexing
+- Movement as Steps: m - 1 represents steps because the first candy is already given
+- Circular Counting: Modulo (% n) wraps positions within the prisoner circle
+- Index-to-Seat Mapping: A modulo result of 0 corresponds to the last prisoner
+- Efficiency: Constant-time calculation without simulation
+
+----------------------------------------------------------------------------------------------------------------
