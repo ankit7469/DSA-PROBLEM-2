@@ -155,4 +155,4 @@ For each day:
 - Deterministic Pattern: Same input always gives the same output
 
 ---------------------------------------------------------------------------------------------------------------
-## 
+## 6. Prroblem 
