@@ -122,7 +122,7 @@ For each number in the range:
 -  Generality: Logic works for numbers with any number of digits
 
 ---------------------------------------------------------------------------------------------------------------------
-## 5. Prblem - Viral Advertising
+## 5. Problem - Viral Advertising
 ---------------------------------------------------------------------------------------------------------------------
 
 🎯 Purpose
@@ -155,3 +155,4 @@ For each day:
 - Deterministic Pattern: Same input always gives the same output
 
 ---------------------------------------------------------------------------------------------------------------
+## 
