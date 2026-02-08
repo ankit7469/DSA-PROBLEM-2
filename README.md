@@ -184,3 +184,5 @@ The position of the last candy can be calculated using modulo arithmetic instead
 - Efficiency: Constant-time calculation without simulation
 
 ----------------------------------------------------------------------------------------------------------------
+## 7. Problem 
+----------------------------------------------------------------------------------------------------------------
