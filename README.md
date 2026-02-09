@@ -186,14 +186,15 @@ The position of the last candy can be calculated using modulo arithmetic instead
 ----------------------------------------------------------------------------------------------------------------
 ## 7. Problem - Circular Array Rotation
 ----------------------------------------------------------------------------------------------------------------
+
 🎯 Purpose
 
 To efficiently answer queries on an array after performing a specified number of circular rotations.
 
 🔑 Key Insight
 
-Instead of rotating the array for every query, the array is rotated once, and then queries are answered using index access.
-Modulo operation helps handle extra rotations and keeps the rotation within array bounds.
+- Instead of rotating the array for every query, the array is rotated once, and then queries are answered using index access.
+- Modulo operation helps handle extra rotations and keeps the rotation within array bounds.
 
 🧠 Concept
 
