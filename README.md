@@ -184,5 +184,30 @@ The position of the last candy can be calculated using modulo arithmetic instead
 - Efficiency: Constant-time calculation without simulation
 
 ----------------------------------------------------------------------------------------------------------------
-## 7. Problem 
+## 7. Problem - Circular Array Rotation
 ----------------------------------------------------------------------------------------------------------------
+🎯 Purpose
+
+To efficiently answer queries on an array after performing a specified number of circular rotations.
+
+🔑 Key Insight
+
+Instead of rotating the array for every query, the array is rotated once, and then queries are answered using index access.
+Modulo operation helps handle extra rotations and keeps the rotation within array bounds.
+
+🧠 Concept
+
+- The array undergoes right circular rotation k times.
+- A right rotation moves the last element to the front.
+- Since rotations are circular, performing k % n rotations gives the same result as k rotations.
+- After rotation, each query simply asks for the element at a given index.
+
+🧩 Core Concepts
+
+- Circular Rotation: Elements wrap around instead of being lost
+- Modulo Optimization: k % n avoids unnecessary full rotations
+- Right Rotation Logic: Last element moves to index 0
+- Query Handling: Each query retrieves an element by index
+- Time Efficiency: Rotation done once, queries answered in O(1) time
+
+----------------------------------------------------------------------------------------------------
