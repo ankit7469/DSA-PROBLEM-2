@@ -240,4 +240,4 @@ To understand how and why index conversion (+1) is used when solving the Sequenc
 - Conditional Usage: +1 is used only when the problem explicitly requires 1-based positions
 - Clarity of Context: Indexing depends on whether the output is for computation or for problem-defined results.
 
-  
+---------------------------------------------------------------------------------------------------------------------
