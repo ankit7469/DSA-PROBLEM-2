@@ -1,4 +1,4 @@
-# 2. DSA-PROBLEMS 
+# 2. DSA PROBLEMS 
 
 -------------------------------------------------
 ## Probelm 1. Designer PDF Viewer
