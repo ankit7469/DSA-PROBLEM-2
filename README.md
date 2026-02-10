@@ -212,3 +212,5 @@ To efficiently answer queries on an array after performing a specified number of
 - Time Efficiency: Rotation done once, queries answered in O(1) time
 
 ----------------------------------------------------------------------------------------------------
+## 8. Problem - Sequence Rotation
+----------------------------------------------------------------------------------------------------
