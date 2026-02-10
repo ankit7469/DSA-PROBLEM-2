@@ -214,3 +214,30 @@ To efficiently answer queries on an array after performing a specified number of
 ----------------------------------------------------------------------------------------------------
 ## 8. Problem - Sequence Rotation
 ----------------------------------------------------------------------------------------------------
+
+🎯 Purpose
+
+To understand how and why index conversion (+1) is used when solving the Sequence Equation problem involving permutations.
+
+🔑 Key Insight
+
+- Python lists use 0-based indexing, while the Sequence Equation problem uses 1-based numbering.
+- The +1 adjustment is required only to match the problem’s numbering system, not because of any change in data.
+
+🧠 Concept
+
+- The permutation p represents a mapping where positions start from 1.
+- Python internally treats list positions starting from 0.
+- When a position is obtained using methods like index(), it is returned in 0-based form.
+- To correctly interpret this position in the context of the problem, +1 is added.
+- The adjustment is applied only when converting from Python indexing to problem-defined numbering.
+
+🧩 Core Concepts
+
+- 0-based Indexing: Python lists start from index 0
+- 1-based Numbering: Problem definitions often start counting from 1
+- Index Conversion: +1 converts a Python index into a problem position
+- Conditional Usage: +1 is used only when the problem explicitly requires 1-based positions
+- Clarity of Context: Indexing depends on whether the output is for computation or for problem-defined results.
+
+  
