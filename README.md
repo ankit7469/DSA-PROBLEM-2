@@ -275,3 +275,32 @@ To calculate the remaining energy after performing fixed-size jumps on a circula
 --------------------------------------------------------------------------------------------------------------
 ## 10. Problem - Find Digits
 -------------------------------------------------------------------------------------------------------------
+
+🎯 Purpose
+
+To determine how many digits of a given number evenly divide the number itself.
+
+🔑 Key Insight
+
+- Each digit of the number is checked individually.
+- A digit is counted only if:
+
+: It is not zero, and
+: The original number is exactly divisible by that digit.
+
+🧠 Concept
+
+- The number is broken down into its individual digits.
+- Each digit is tested against the original number using the modulo operation.
+- Division by zero is avoided by skipping the digit 0.
+- The final result is the count of digits that divide the number evenly.
+
+🧩 Core Concepts
+
+- Digit Extraction: Using modulo (%) and integer division (//)
+- Original Value Preservation: Store the number before modifying it
+- Divisibility Check: number % digit == 0
+- Zero Handling: Avoid division by zero
+- Iteration: Process each digit independently.
+
+--------------------------------------------------------------------------------------------
