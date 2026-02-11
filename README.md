@@ -243,3 +243,33 @@ To understand how and why index conversion (+1) is used when solving the Sequenc
 ---------------------------------------------------------------------------------------------------------------------
 ## 9. Problem - Jumping on the Clouds
 ---------------------------------------------------------------------------------------------------------------------
+
+🎯 Purpose
+
+To calculate the remaining energy after performing fixed-size jumps on a circular array of clouds.
+
+🔑 Key Insight
+
+- Each jump reduces energy by 1 unit, and landing on a thundercloud reduces an additional 2 units.
+- The movement is circular, meaning after the last cloud, the jump continues from the first cloud.
+
+🧠 Concept
+
+- The player starts at index 0 with an initial energy of 100.
+- The player jumps exactly k steps at a time.
+- The position is updated using modulo arithmetic to maintain circular movement.
+  
+- After every jump:
+- Energy decreases by 1.
+- If the landed cloud is a thundercloud (1), energy decreases by 2 more.
+- The process continues until the player returns to index 0.
+
+🧩 Core Concepts
+
+- Circular Movement: (current_index + k) % n ensures wrapping around
+- Energy Deduction Rule: −1 per jump, −2 extra for thundercloud
+- Loop Termination: Stop when index becomes 0 again
+- Modulo Arithmetic: Handles circular indexing
+- State Update Logic: Each jump updates position and energy
+
+--------------------------------------------------------------------------------------------------------------
