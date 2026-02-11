@@ -273,3 +273,5 @@ To calculate the remaining energy after performing fixed-size jumps on a circula
 - State Update Logic: Each jump updates position and energy
 
 --------------------------------------------------------------------------------------------------------------
+## 10. Problem - Find Digits
+-------------------------------------------------------------------------------------------------------------
