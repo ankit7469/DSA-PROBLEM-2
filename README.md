@@ -241,3 +241,5 @@ To understand how and why index conversion (+1) is used when solving the Sequenc
 - Clarity of Context: Indexing depends on whether the output is for computation or for problem-defined results.
 
 ---------------------------------------------------------------------------------------------------------------------
+## 9. Problem - Jumping on the Clouds
+---------------------------------------------------------------------------------------------------------------------
