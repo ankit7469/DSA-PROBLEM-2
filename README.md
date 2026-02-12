@@ -331,3 +331,39 @@ To compute the factorial of a large number where the result exceeds the range of
 - Large Number Growth: Factorials increase exponentially in size
 
 -------------------------------------------------------------------------------------------------------------------------
+## 12. Problem - Append and Delete
+-------------------------------------------------------------------------------------------------------------------------
+
+🎯 Purpose
+
+To determine whether one string can be converted into another using exactly k operations, where each operation is either:
+
+- Appending a character to the end, or
+- Deleting the last character.
+
+🔑 Key Insight
+
+The transformation depends on:
+1. The common prefix shared by both strings.
+2. The minimum required operations to remove unmatched characters and append new ones.
+3. Whether any extra operations can be safely wasted.
+
+🧠 Concept
+
+- First, identify the longest common prefix of both strings.
+- Characters beyond the common prefix in the first string must be deleted.
+- Characters beyond the common prefix in the second string must be appended.
+- Calculate the minimum required operations.
+- Compare it with k to determine feasibility.
+- Extra operations can be canceled in pairs (delete + append), or handled using a full reset scenario.
+
+🧩 Core Concepts
+
+- Common Prefix Identification
+- Minimum Operation Calculation
+- Exact Operation Constraint (k)
+- Parity Check: Extra operations must be even to cancel out
+- Full Reset Condition: If k is large enough, full deletion and reconstruction is possible
+- Edge Case Handling
+
+---------------------------------------------------------------------------------------------------
