@@ -324,10 +324,10 @@ To compute the factorial of a large number where the result exceeds the range of
 
 🧩 Core Concepts
 
-• Factorial Definition: n! = n × (n-1) × ... × 1
-• Arbitrary Precision: Handling numbers beyond fixed integer limits
-• Iterative Multiplication: Loop-based factorial calculation
-• Time Complexity: O(n) multiplications
-• Large Number Growth: Factorials increase exponentially in size
+- Factorial Definition: n! = n × (n-1) × ... × 1
+- Arbitrary Precision: Handling numbers beyond fixed integer limits
+- Iterative Multiplication: Loop-based factorial calculation
+- Time Complexity: O(n) multiplications
+- Large Number Growth: Factorials increase exponentially in size
 
 -------------------------------------------------------------------------------------------------------------------------
