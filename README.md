@@ -306,3 +306,28 @@ To determine how many digits of a given number evenly divide the number itself.
 --------------------------------------------------------------------------------------------
 ## 11. Problem - Extra long factorial 
 --------------------------------------------------------------------------------------------
+🎯 Purpose
+
+To compute the factorial of a large number where the result exceeds the range of standard integer data types.
+
+🔑 Key Insight
+
+- Factorial values grow extremely fast.
+- For large inputs, the result cannot be stored in normal fixed-size integer types, so we rely on languages or techniques that support arbitrary precision arithmetic.
+
+🧠 Concept
+
+- The factorial of a number n is the product of all positive integers from 1 to n.
+- For large n, the result becomes very large (hundreds or thousands of digits).
+- Instead of worrying about overflow, we use built-in big integer handling.
+- The computation is typically done using iterative multiplication from 1 to n.
+
+🧩 Core Concepts
+
+• Factorial Definition: n! = n × (n-1) × ... × 1
+• Arbitrary Precision: Handling numbers beyond fixed integer limits
+• Iterative Multiplication: Loop-based factorial calculation
+• Time Complexity: O(n) multiplications
+• Large Number Growth: Factorials increase exponentially in size
+
+-------------------------------------------------------------------------------------------------------------------------
