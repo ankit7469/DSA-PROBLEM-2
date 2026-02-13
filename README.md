@@ -369,3 +369,63 @@ The transformation depends on:
 ---------------------------------------------------------------------------------------------------
 ## 13. Problem - Sherlock and Squares
 ---------------------------------------------------------------------------------------------------
+📌 Description
+
+This problem focuses on finding the number of perfect square numbers between two given integers a and b (inclusive).
+A perfect square is a number that can be written as:
+
+
+Examples:
+
+1 = 1²
+4 = 2²
+9 = 3²
+16 = 4²
+
+🎯 Objective
+
+Given multiple test cases:
+- Input two integers a and b
+- Determine how many perfect squares exist in the range [a, b]
+
+🧠 Core Concept
+
+- Instead of checking every number between a and b (brute force approach), we use a mathematical optimization.
+Key Insight:
+- If a number x² lies between a and b, then:
+𝑎 ≤ 𝑥 ≤ 𝑏a ≤x≤ b
+- So instead of iterating through all numbers in the range, we:
+- Compute the smallest integer ≥ √a
+- Compute the largest integer ≤ √b
+- Count the integers between them
+
+📐 Mathematical Formula -
+
+- start=⌈𝑎⌉
+- end=⌊𝑏⌋
+- count=𝑒𝑛𝑑−𝑠𝑡𝑎𝑟𝑡+1
+If start > end, then count = 0.
+
+⚡ Time Complexity
+
+- Brute Force Approach → O(b - a)
+- Optimized Mathematical Approach → O(1)
+
+🚀 Learning Outcome - 
+
+By solving this problem, you understand:
+
+- How to identify perfect squares
+- How to use square root properties effectively
+- How to optimize range-based problems
+- Why mathematical reasoning is better than brute force in large constraints
+- How to avoid Time Limit Exceeded (TLE) errors
+
+📚 Topic Covered
+
+- Math & Number Theory
+- Square Root Concepts
+- Range Optimization
+- Competitive Programming Thinking
+
+------------------------------------------------------------------------------------
