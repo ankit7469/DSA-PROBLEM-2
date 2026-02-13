@@ -429,3 +429,73 @@ By solving this problem, you understand:
 - Competitive Programming Thinking
 
 ------------------------------------------------------------------------------------
+## 14. Library Fine
+------------------------------------------------------------------------------------
+
+📌 Description
+
+- This problem determines the library fine based on how late a book is returned compared to its due date.
+
+You are given two dates:
+- Return Date → The actual date when the book was returned
+- Due Date → The last allowed date to return the book
+- The goal is to calculate the fine using logical date comparison.
+
+🎯 Objective
+
+Check whether the book was returned:
+- On time
+- Late by days
+- Late by months
+- Late by year
+- And apply the correct fine rule.
+
+🧠 Core Concept
+
+- Dates are not compared randomly.
+- They must be compared in a hierarchical order:
+- Year → Month → Day
+This means:
+
+- The year is checked first.
+- If the year is the same, then the month is checked.
+- If the month is also the same, then the day is checked.
+- This structured comparison ensures accurate results.
+
+📜 Fine Rules (Logic Based) - 
+
+1️⃣ If the book is returned after the due year:
+A fixed maximum fine is charged.
+
+2️⃣ If the book is returned in the same year but after the due month:
+A fine is charged based on how many months late it is.
+
+3️⃣ If the book is returned in the same year and same month but after the due day:
+A fine is charged based on how many days late it is.
+
+4️⃣ If the book is returned on time or before the due date:
+No fine is charged.
+
+⚠ Important Understanding
+
+- A later year automatically means the highest fine.
+- Month comparison only matters if the year is the same.
+- Day comparison only matters if both year and month are the same.
+- If the return date is earlier than the due date, there is no penalty.
+
+🚀 Learning Outcome
+
+- From this problem, you learn:
+- How to compare structured data logically
+- Importance of decision hierarchy
+- How real-world rules translate into condition-based logic
+- How small ordering mistakes can cause incorrect outputs
+
+📚 Topics Covered
+
+- Conditional Thinking
+- Logical Flow Control
+- Date Comparison Strategy
+- Problem Breakdown
+
+--------------------------------------------------------------------------------------------
