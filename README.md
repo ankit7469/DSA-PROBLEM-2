@@ -1,9 +1,10 @@
 # 2. DSA PROBLEMS 
+
 ---------------------------------------------------------------------------------------------------
 ## Probelm 1. Designer PDF Viewer
 ---------------------------------------------------------------------------------------------------
 
-🎯 Purpose
+🎯 Purpose -
 
 To calculate the area occupied by a highlighted word in a PDF viewer based on the heights of its letters.
 
