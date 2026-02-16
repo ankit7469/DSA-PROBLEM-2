@@ -509,36 +509,39 @@ To determine how many sticks remain before each cutting round when repeatedly re
 🔑 Key Insight
 
 In every round:
-The smallest stick length is identified.
-That minimum length is subtracted from all sticks.
-Sticks that become zero are removed.
-The count of sticks before each cut is recorded.
-The process continues until no sticks remain.
+- The smallest stick length is identified.
+- That minimum length is subtracted from all sticks.
+- Sticks that become zero are removed.
+- The count of sticks before each cut is recorded.
+- The process continues until no sticks remain.
 
 🧠 Concept
 
-The problem simulates a repetitive cutting process.
+- The problem simulates a repetitive cutting process.
 For each round:
 
-Count the current number of sticks.
-Reduce all sticks by the smallest length.
-Remove sticks that reach zero.
-Repeat with the updated set.
-Each round effectively eliminates one unique stick length level.
+- Count the current number of sticks.
+- Reduce all sticks by the smallest length.
+- Remove sticks that reach zero.
+- Repeat with the updated set.
+- Each round effectively eliminates one unique stick length level.
 
 🧩 Core Concepts
 
-Iterative Simulation: Process repeats until the list becomes empty
-Minimum Extraction: Smallest element determines the cut size
-State Update: Stick lengths change after every round
-Filtering: Zero-length sticks are removed
-Pattern Observation: Each new minimum creates a new round
-List Manipulation: Updating and shrinking the data structure
+- Iterative Simulation: Process repeats until the list becomes empty
+- Minimum Extraction: Smallest element determines the cut size
+- State Update: Stick lengths change after every round
+- Filtering: Zero-length sticks are removed
+- Pattern Observation: Each new minimum creates a new round
+- List Manipulation: Updating and shrinking the data structure
 
 🚀 Learning Outcome
 
-Understand how iterative reduction problems work
-Learn how dynamic lists change during execution
-Strengthen logic for simulation-based problems
-Recognize when sorting or pattern observation can optimize the approach
-Improve understanding of state-driven iteration
+- Understand how iterative reduction problems work
+- Learn how dynamic lists change during execution
+- Strengthen logic for simulation-based problems
+- Recognize when sorting or pattern observation can optimize the approach
+- Improve understanding of state-driven iteration
+
+-----------------------------------------------------------------------------------------------------------------------------
+
