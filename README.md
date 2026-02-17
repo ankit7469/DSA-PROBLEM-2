@@ -566,7 +566,7 @@ When two numbers are added:
 - If two remainder groups conflict, you cannot fully take both groups.
 - So from each conflicting pair of groups, you choose the larger group.
 
-Some special cases:
+ Some special cases:
 
 - Numbers perfectly divisible by k can only contribute one element.
 - In some cases, one middle remainder group can also contribute only one element.
