@@ -544,4 +544,49 @@ For each round:
 - Improve understanding of state-driven iteration
 
 -----------------------------------------------------------------------------------------------------------------------------
+## 16. Non divisible Subset
+-----------------------------------------------------------------------------------------------------------------------------
 
+🎯 Purpose
+
+To find the largest possible group of numbers from an array such that no two numbers in the group add up to a multiple of k.
+
+🔑 Key Insight (Simple Understanding)
+
+When two numbers are added:
+
+- If their sum becomes exactly divisible by k, they cannot both stay in the subset.
+- Such numbers “conflict” with each other.
+- So the goal is to avoid keeping conflicting numbers together.
+
+🧠 Concept (Easy Explanation)
+
+- First, look at each number and see what remains when it is divided by k.
+- Numbers that leave certain remainders will conflict with numbers that leave specific other remainders.
+- If two remainder groups conflict, you cannot fully take both groups.
+- So from each conflicting pair of groups, you choose the larger group.
+
+Some special cases:
+
+- Numbers perfectly divisible by k can only contribute one element.
+- In some cases, one middle remainder group can also contribute only one element.
+- The idea is to choose numbers smartly so that no bad pair is formed.
+
+🧩 Core Concepts
+
+- Divisibility checking
+- Remainder grouping
+- Conflict detection
+- Smart selection instead of checking every pair
+- Avoiding brute force
+
+🚀 Learning Outcome
+
+- After solving this problem, you will:
+- Understand how to avoid conflicting pairs
+- Learn to think in groups instead of checking all combinations
+- Improve logical reasoning in subset problems
+- Recognize patterns in divisibility-based challenges
+- Strengthen optimization thinking in DSA
+
+-------------------------------------------------------------------------------------------------
