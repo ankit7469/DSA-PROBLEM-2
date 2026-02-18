@@ -600,59 +600,38 @@ To calculate how many times the character 'a' appears in the first n characters 
 🔑 Key Insight
 
 Instead of actually repeating the string many times, we observe a pattern:
-
 The string repeats in complete blocks.
-
 After full repeats, a small leftover part may remain.
-
 We only need to count 'a' in:
-
 The full repeated blocks
-
 The remaining partial block
-
 No need to build a large string.
 
 🧠 Concept (Simple Explanation)
 
 Count how many 'a' are present in the original string.
-
 Determine how many full times the string fits into n.
-
 Multiply the count of 'a' by the number of full repeats.
-
 Check the leftover characters and count 'a' in that small part.
-
 Add both counts to get the final answer.
-
 This avoids creating a huge repeated string.
 
 🧩 Core Concepts
 
 Pattern observation
-
 Integer division
-
 Remainder handling
-
 Character counting
-
 Avoiding unnecessary memory usage
-
 Optimization for very large inputs
 
 🚀 Learning Outcome
 
 After solving this problem, you will:
-
 Learn how to handle very large constraints efficiently
-
 Understand why brute-force repetition is not practical
-
 Apply mathematical thinking instead of physical simulation
-
 Improve optimization skills in competitive programming
-
 Strengthen understanding of pattern-based counting problems
 
 -------------------------------------------------------------------------------------------
