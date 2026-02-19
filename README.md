@@ -637,3 +637,45 @@ To calculate how many times the character 'a' appears in the first n characters 
 -------------------------------------------------------------------------------------------
 ## 18. Problem - Jumping on the clouds
 -------------------------------------------------------------------------------------------
+
+🎯 Purpose
+
+To determine the minimum number of jumps required to reach the last cloud, while avoiding unsafe clouds.
+
+🔑 Key Insight
+
+- You can jump either 1 step or 2 steps at a time.
+- You cannot land on a thunder cloud (represented by 1).
+- You should always try to jump 2 steps first (if safe) to minimize total jumps.
+- The goal is to reach the last cloud in the fewest possible moves.
+
+🧠 Concept (Simple Explanation)
+
+- Start from the first cloud (index 0).
+At each step:
+
+- Check if jumping 2 clouds ahead is possible and safe.
+- If yes, take the 2-step jump.
+- Otherwise, take a 1-step jump.
+- Count each jump.
+- Stop when you reach the last cloud.
+- This works because taking the longest safe jump always reduces the total number of moves.
+
+🧩 Core Concepts
+
+- Index-based traversal
+- Greedy approach (always choose the largest safe move)
+- Boundary checking (avoid going outside the array)
+- Conditional decision making
+- Loop control using a pointer
+
+🚀 Learning Outcome
+
+- After solving this problem, you will:
+- Understand how greedy decisions reduce steps
+- Learn how to control movement using indices
+- Practice safe boundary checking in arrays
+- Improve logic building for traversal problems
+- Strengthen understanding of simulation-based DSA problems
+
+----------------------------------------------------------------------------------------------------
