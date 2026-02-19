@@ -634,3 +634,5 @@ To calculate how many times the character 'a' appears in the first n characters 
 - Strengthen understanding of pattern-based counting problems
 
 -------------------------------------------------------------------------------------------
+## 18. Problem - Jumping on the clouds
+-------------------------------------------------------------------------------------------
