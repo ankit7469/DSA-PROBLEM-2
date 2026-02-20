@@ -680,4 +680,42 @@ At each step:
 
 ----------------------------------------------------------------------------------------------------
 ## 19. Problem - Equalize the problem
----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+🎯 Purpose
+
+To determine the minimum number of deletions required so that all elements in the array become equal.
+
+🔑 Key Insight
+
+- To make all elements equal:
+- The best strategy is to keep the element that appears the most times.
+- Delete all other elements.
+- Keeping the most frequent element minimizes deletions.
+
+🧠 Concept (Simple Explanation)
+
+- Count how many times each element appears.
+- Identify the element with the highest frequency.
+- Calculate how many elements are different from it.
+- Delete those different elements.
+- Instead of trying to convert all elements into every possible value, we simply choose the value that already appears the most.
+
+🧩 Core Concepts
+
+- Frequency counting
+- Hash map (dictionary) usage
+- Maximization strategy
+- Greedy decision making
+- Minimizing deletions through optimal selection
+
+🚀 Learning Outcome
+
+- After solving this problem, you will:
+- Understand how frequency analysis simplifies array problems
+- Learn how to reduce transformation problems into deletion problems
+- Recognize greedy optimization strategies
+- Strengthen counting and hashing techniques
+- Improve logical reasoning in array manipulation challenges
+
+---------------------------------------------------------------------------------------
