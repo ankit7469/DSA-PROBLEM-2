@@ -667,7 +667,7 @@ At each step:
 - Greedy approach (always choose the largest safe move)
 - Boundary checking (avoid going outside the array)
 - Conditional decision making
-- Loop control using a pointer
+- Loop control using a pointerr
 
 🚀 Learning Outcome
 
@@ -679,3 +679,5 @@ At each step:
 - Strengthen understanding of simulation-based DSA problems
 
 ----------------------------------------------------------------------------------------------------
+## 19. Problem - Equalize the problem
+---------------------------------------------------------------------------------------------
