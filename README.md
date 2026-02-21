@@ -721,3 +721,80 @@ To determine the minimum number of deletions required so that all elements in th
 ---------------------------------------------------------------------------------------
 ## 20. Problem - Queen's attack II 
 ---------------------------------------------------------------------------------------
+🎯 Purpose
+
+To calculate how many squares a Queen can attack on an n × n chessboard, considering obstacles that block her movement.
+
+🔑 Key Insight
+
+A Queen can move in 8 possible directions:
+
+Up
+
+Down
+
+Left
+
+Right
+
+Up-Right
+
+Up-Left
+
+Down-Right
+
+Down-Left
+
+She continues moving in a direction until:
+
+She reaches the board boundary, or
+
+She encounters an obstacle.
+
+The total attackable squares are the sum of valid moves in all 8 directions.
+
+🧠 Concept (Simple Explanation)
+
+First, calculate how far the Queen can move in each direction without obstacles (up to the board edge).
+
+Then, for each obstacle:
+
+Check if it lies in the same row, column, or diagonal.
+
+If it blocks a direction, reduce the maximum distance in that direction.
+
+After processing all obstacles, add the distances from all 8 directions.
+
+No need to simulate every square — just track distances.
+
+🧩 Core Concepts
+
+Coordinate system logic
+
+Row and column comparison
+
+Diagonal condition using equal row/column difference
+
+Boundary calculation
+
+Direction-based distance tracking
+
+Efficient obstacle filtering
+
+Optimization to avoid scanning the entire board
+
+🚀 Learning Outcome
+
+After solving this problem, you will:
+
+Understand 2D grid traversal with constraints
+
+Learn how to manage multi-directional movement
+
+Apply geometric reasoning in coordinate systems
+
+Handle obstacle-based blocking logic
+
+Improve optimization from brute force to O(k) complexity
+
+-------------------------------------------------------------------------------------
