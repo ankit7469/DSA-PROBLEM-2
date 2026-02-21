@@ -1,4 +1,4 @@
-# 2. DSA PROBLEMS (PYTHON) - 
+# 2. DSA PROBLEMS (PYTHON) - Total 20 Problems 
 
 --------------------------------------------------------------------------------------------------------
 ## Probelm 1. Designer PDF Viewer
